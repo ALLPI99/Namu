@@ -1,3 +1,3 @@
-FROM nginx:stable-alpine-slim
+FROM 192.168.100.226/docker.io/libra
 
-COPY redash.conf /etc/nginx/conf.d/default.conf
+COPY ./nginx/* /usr/share/nginx/html
